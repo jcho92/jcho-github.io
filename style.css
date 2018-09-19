@@ -1,0 +1,29 @@
+div.main{
+    width: 960px;
+    margin-right:auto;
+    margin-left:auto;
+    text-align: center;
+    margin-top:100px;
+}
+div.header{
+    margin-right:auto;
+    margin-left:auto;
+}
+h1{
+    text-align: center;
+    color: #ffffff;
+}
+div.button{
+    margin-top:150px;
+}
+body{
+    background-color: #000000;
+}
+img.image{
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+
+}

@@ -1,0 +1,35 @@
+
+var userQuestion = 'how is Jina feeling';
+var mood = Math.floor(Math.random() * 7);
+var feeling ='';
+switch(mood){
+  case 0:
+    feeling= 'Feeling happy';
+    break;
+  case 1:
+    feeling= 'Feeling ok';
+    break;
+  case 2:
+    feeling = 'Feeling confused';
+    break;
+  case 3:
+    feeling = 'Feeling tired';
+    break;
+  case 4:
+    feeling = 'Feeling exctied!';
+    break;
+  case 5:
+    feeling = 'Hen Kai xing';
+    break;
+  case 6: 
+    feeling = 'Feeling Hen Hao';
+    break;
+  case 7:
+    feeling = 'Feeling Great';
+    break;
+}
+    
+console.log(userQuestion);
+console.log('Jina is' + ' ' + feeling);
+
+ 
